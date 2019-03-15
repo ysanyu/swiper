@@ -2,7 +2,7 @@
 一个简单的swiper小程序
 
 ## 使用小程序的swiper组件
-`
+``
 <swiper
     indicator-dots="{{indicatorDots}}"
     autoplay="{{autoplay}}"
@@ -18,7 +18,7 @@
       </swiper-item>
     </block>
   </swiper>
-`
+``
 * 具体可以参见小程序组件使用：https://developers.weixin.qq.com/miniprogram/dev/component/
 
 
