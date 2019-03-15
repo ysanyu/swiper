@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+  <open-data type="userAvatarUrl"></open-data>
+  <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+  <view class="usermotto">
+    <button class="user-motto" bindtap="getToHome">{{motto}}</button>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  color: #ccc;
+}
+.title{
+  padding: 10rpx 0;
+  font-size: 56rpx;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.swiper{
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.swiper-image{
+  width: 100%;
+  height: 100%;
+}
+.tabTouch{
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+} 
+
+.tabTouch view{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10rpx;
+}
